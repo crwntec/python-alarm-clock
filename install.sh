@@ -4,7 +4,8 @@ if ! hash python; then
     sudo apt-get python
 fi
 python -c "import playsound"
-if [echo$? == 1] then
+if [ echo$? == 1 ]
+then
     pip install playsound
 fi
 python main.py
