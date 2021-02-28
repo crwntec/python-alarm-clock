@@ -1,3 +1,5 @@
-Simple Alarm clock
+**Python Alarm Clock**
+A Simple Alarmclock coded in python
 
-The sh script checks if python is installed on the system, if not it gets it, then it starts the Script
+**Instructions**
+The python script uses the playsound packet. To work properly install it with `pip install playsound`
